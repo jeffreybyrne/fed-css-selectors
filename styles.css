@@ -36,26 +36,27 @@ header {
   text-align: right;
 }
 
-#advanced-selectors > ol > li  {
+#advanced-selectors > ol > li {
   padding: 5px;
   background-color: grey;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #advanced-selectors > ol > li > ul {
   background-color: none;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
-#advanced-selectors > ol > li > ul > li:hover {
+#advanced-selectors > ol > li > ul > li > a:hover {
   background-color: yellow;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
-#advanced-selectors > ol > li > ul > li:active {
+#advanced-selectors > ol > li > ul > li > a:active {
   background-color: red;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
+
 #advanced-selectors li:nth-child(odd) {
   background-color: green;
 }
