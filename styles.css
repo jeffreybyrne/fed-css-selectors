@@ -1,9 +1,29 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
-body {
+html {
   font-size: 15px;
 }
 
 h1, h2 {
   font-family: arial;
+}
+
+header {
+  border-bottom: 5px dotted blue;
+}
+
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border: 10px;
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: white;
 }
