@@ -27,3 +27,39 @@ header {
 .odd {
   background-color: white;
 }
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+#advanced-selectors > ol > li  {
+  padding: 5px;
+  background-color: grey;
+  border: 1px solid red;
+}
+
+#advanced-selectors > ol > li > ul {
+  background-color: none;
+  border: 1px solid green;
+}
+
+#advanced-selectors > ol > li > ul > li:hover {
+  background-color: yellow;
+  border: 1px solid green;
+}
+
+#advanced-selectors > ol > li > ul > li:active {
+  background-color: red;
+  border: 1px solid green;
+}
+#advanced-selectors li:nth-child(odd) {
+  background-color: green;
+}
+
+[title~=Bitmaker]:hover {
+  text-decoration: none;
+}
